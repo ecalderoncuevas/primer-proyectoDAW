@@ -1,19 +1,25 @@
-import { Button } from "@/components/ui/button"
-
 export default function Page() {
   return (
-    <div className="flex min-h-svh p-6">
-      <div className="flex max-w-md min-w-0 flex-col gap-4 text-sm leading-loose">
-        <div>
-          <h1 className="font-medium">Lorem ipsum dolor sit amet.</h1>
-          <p>wake upppp n.</p>
-          <p>We&apos;ve already added the button component for you.</p>
-          <Button className="mt-2">Button</Button>
-        </div>
-        <div className="font-mono text-xs text-muted-foreground">
-          (Press <kbd>d</kbd> to toggle dark mode)
+    <>
+      <div className="min-h-[450px] h-screen w-screen bg-[#1a2e05]">
+        <div className="mx-auto flex h-full w-full max-w-[1200px] items-center justify-center bg-[#500724] p-8 text-center">
+          <p className="text-center text-[30px] leading-none">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
+            velit at purus faucibus laoreet. Integer euismod, massa sed
+            ultrices posuere, nunc lacus tincidunt justo, vitae tristique nunc
+            nunc non ipsum. Donec posuere, libero sed varius sagittis, erat
+            magna malesuada lorem, eget placerat lectus turpis quis justo.
+            Curabitur aliquet, nisl non pretium elementum, augue ipsum luctus
+            metus, vitae volutpat mi libero a nisi. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae;
+            Praesent pellentesque erat vel sapien sollicitudin, ac fermentum
+            nunc ultrices. Aliquam erat volutpat, semper.
+          </p>
         </div>
       </div>
-    </div>
+      
+      <section className="min-h-[450px] h-[50vh] w-screen bg-[#064e3b]" />
+      <section className="min-h-[450px] h-[50vh] w-screen bg-[#083344]" />
+    </>
   )
 }
