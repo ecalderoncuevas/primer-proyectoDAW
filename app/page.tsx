@@ -1,8 +1,11 @@
+import { ShaderBackground } from "@/components/ui/adisyon-shader"
+
 export default function Page() {
   return (
     <>
-      <div className="min-h-[450px] h-screen w-screen bg-[#1a2e05]">
-        <div className="mx-auto flex h-full w-full max-w-[1200px] items-center justify-center bg-[#500724] p-8 text-center">
+      <div className="relative min-h-[450px] h-screen w-screen overflow-hidden bg-transparent">
+        <ShaderBackground className="absolute inset-0 -z-10" />
+        <div className="mx-auto flex h-full w-full max-w-[1200px] items-center justify-center bg-transparent p-8 text-center">
           <p className="text-center text-[30px] leading-none">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
             velit at purus faucibus laoreet. Integer euismod, massa sed
